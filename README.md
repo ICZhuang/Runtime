@@ -9,4 +9,12 @@
 
 
 
+#### 博客推荐
+
+[http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/](http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/)
+
+http://www.cocoachina.com/ios/20141224/10740.html
+
+
+
 还有闲言的，只不过暂时忘了。。。
