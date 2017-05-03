@@ -1,6 +1,10 @@
 # **三、**Runtime  概念部分 之 Method
 
-## **Method**
+> 本文githud地址 [https://github.com/ICZhuang/Runtime](https://github.com/ICZhuang/Runtime)
+
+
+
+## Method
 
 顾名思义，Method 即方法，在 Runtime 中，通过 class_getInstanceMethod 获得类中的对象方法
 

@@ -3,6 +3,8 @@
 上一章只是介绍了Class 和 Object 的概念，本来想继续介绍它们之间的一些函数的，奈何篇幅过长了。所以另开一章，介绍它们之间的一些函数，这些函数还包括对Ivar、property、Method的函数(前面几章还没学到class，所以在这补上)。作为简单实践，是笔者学习了前几篇概念之后，觉得到了要做一些实践的时候了。
 
 > 其实Ivar、property、Method遍历也可以是实践的一部分了，这里不再做介绍
+>
+> 本文githud地址 [https://github.com/ICZhuang/Runtime](https://github.com/ICZhuang/Runtime)
 
 
 

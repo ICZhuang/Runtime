@@ -1,5 +1,7 @@
 # **六、**Runtime 实践部分 之 YYModel 源码跟读（一）YYClassInfo
 
+> 本文githud地址 [https://github.com/ICZhuang/Runtime](https://github.com/ICZhuang/Runtime)
+>
 > 想着继续介绍Runtime 的概念部分 关于Protocol，Category，还有objc_xxx API，但又想到这跟之前介绍的都有相通的地方，所以就不再拉长篇幅了。其中就“关联对象”还需要提一下，然而网络博客已经一大堆了，有些东西，毕竟没有去实际应用过，不好做总结，就在真正用到Runtime再详细的补上吧。
 >
 > MJExtension 和 YYKit中的模型对象互转，是Runtime体现出目前最为广泛使用的方式之一。至于这里选择读YYKit没什么特殊原因，就是因为项目中使用的是YYKit，我想，看懂一个，在去看懂另外一个不是难事儿。。

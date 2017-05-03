@@ -1,5 +1,9 @@
 # **二、**Runtime概念部分 之 Property
 
+> 本文githud地址 [https://github.com/ICZhuang/Runtime](https://github.com/ICZhuang/Runtime)
+
+
+
 ## Property
 
 从代码中看，它就是一个带着property attribute和自带访问器的Ivar，类似于Ivar，Property 在Runtime中的表示则为 objc_property_t，它是一个 objc_property 结构体的指针(笔者没找到它的定义，后续找到后补上，不过各位看官可以类比Ivar的访问方法，可以猜测 objc_property `可能`长什么样)。

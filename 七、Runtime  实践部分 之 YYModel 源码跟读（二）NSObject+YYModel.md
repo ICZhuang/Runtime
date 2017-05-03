@@ -1,5 +1,7 @@
 # **七、**Runtime 实践部分之 YYModel 源码跟读（二）NSObject+YYModel
 
+> 本文githud地址 [https://github.com/ICZhuang/Runtime](https://github.com/ICZhuang/Runtime)
+
 在YYKit中，模型字典的互转，以NSObject的分类来实现，这个分类就是NSObject+YYModel。
 
 作为分类方法，任何继承自NSObject的 类都可以直接调用 +modelWithDictionary:  并将一个字典作为参数，快速创建一个包含与字典中匹配键值的属性的实例对象。
