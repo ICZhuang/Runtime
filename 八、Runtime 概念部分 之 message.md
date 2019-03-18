@@ -39,7 +39,7 @@ objc_msgSend(receiver, selector, arg1, arg2, ...)
 
 当一个对象被创建，分配内存，并且给成员变量做初始化。第一个变量就是isa指针，指向它的class。通过class便可找到所有在继承链中的类。
 
-<img src="https://github.com/ICZhuang/Runtime/blob/master/image/08-01.png" align="center" height="100" />
+![image_01](https://github.com/ICZhuang/Runtime/blob/master/image/08-01.png?raw=false)
 
 当给一个对象发送消息，消息发送方法就会沿着对象的isa指针在类的分发表里找方法的selector，如果在类中没有找到，那么继续在superclass的分发表里找，直到查找到NSObject class。一旦查找到，消息发送方法就调起该方法实现并把对象的数据结构传递过去。
 
